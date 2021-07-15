@@ -1150,6 +1150,9 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
 }
+.footer .footer_mgm .studios .navs a{
+  text-decoration: none;
+}
 
 .footer .footer_mgm .studios .navs .nav {
     font-size: 1rem;

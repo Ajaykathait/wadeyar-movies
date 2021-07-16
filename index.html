@@ -42,6 +42,19 @@
                     <img src="./img/envelope.svg" alt="">
                 </div>
             </div>
+
+            <div class="hamburger">
+                <img onclick="togle()" src="./img/ham.png" id="ham" alt="">
+
+                <div class="dropdown" id="drop">
+                    <a href="#mmm" class="nav_itm">MOVIES</a>
+                    <a href="#um" class="nav_itm">UPCOMING MOVIES </a>
+                    <a href="#awa" class="nav_itm">AWARDS</a>
+                    <a href="" class="nav_itm">CONTACT US</a>
+                    <a href="#caree" class="nav_itm">CAREERS</a>
+                    <a href="#abb" class="nav_itm">ABOUT</a>
+                </div>
+            </div>
         </div>
     </header>
     <!-- header ends -->
@@ -60,13 +73,13 @@
                <a href="./upcoming-1.html" style="text-decoration: none;"><div class="watchOrLearn">LEARN MORE</div></a> 
             </div>
         </div>
-        <div class="img_container">
+        <!-- <div class="img_container">
             <img src="./img/pawan wadeyar movies/pawan wadeyar movies/p.jpg" alt="">
             <div class="aboslute_details">
-                <div class="title_img">
+                <div class="title_img"> -->
                     <!-- <img src="./img/caurosel-mgm/SHARKTANK2020 - Title Treatment (1).png" alt=""> -->
                     <!-- <div class="img_text"></div> -->
-                </div>
+                <!-- </div>
                 <div class="runningOn"> Streaming on Netflix </div>
                 <div class="watchOrLearn">LEARN MORE</div>
             </div>
@@ -74,14 +87,14 @@
         <div class="img_container">
             <img src="./img/pawan wadeyar movies/pawan wadeyar movies/pv.jpg" alt="">
             <div class="aboslute_details">
-                <div class="title_img">
+                <div class="title_img"> -->
                     <!-- <img src="./img/caurosel-mgm/HANDMA_S4_TitleTreatment.png" alt=""> -->
                     <!-- <div class="img_text"></div> -->
-                </div>
+                <!-- </div>
                 <div class="runningOn"> Streaming on Netflix </div>
                 <div class="watchOrLearn">LEARN MORE</div>
             </div>
-        </div>
+        </div> -->
         <!-- <div class="nav_labels">
         <div class="list_title">
             .
@@ -687,6 +700,19 @@
         <!-- header ends -->
 
 </body>
+
+
+
+<script>
+     function togle() {
+    var x =  document.getElementById("drop");
+    if (x.style.display == "none") {
+      x.style.display = "flex";
+    } else {
+      x.style.display = "none";
+    }
+    }
+</script>
 
 <script>
     let slidePosition = 0;

@@ -42,6 +42,19 @@
                 <img src="./img/envelope.svg" alt="">
             </div>
         </div>
+
+        <div class="hamburger">
+            <img onclick="togle()" src="./img/ham.png" id="ham" alt="">
+
+            <div class="dropdown" id="drop">
+                <a href="index.html#mmm" class="nav_itm">MOVIES</a>
+                <a href="./index.html#um" class="nav_itm">UPCOMING MOVIES</a>
+                <a href="./index.html#awa" class="nav_itm">AWARDS</a>
+                <a href="" class="nav_itm">CONTACT US</a>
+                <a href="./index.html#caree" class="nav_itm">CAREERS</a>
+                <a href="./index.html#abb" class="nav_itm">ABOUT</a>
+            </div>
+        </div>
     </div>
 </header>
 <!-- header ends -->
@@ -145,4 +158,16 @@
     </div>
 </body>
 
+
+<script>
+    document.getElementById("drop").style.display="none"
+    function togle() {
+    var x =  document.getElementById("drop");
+    if (x.style.display == "none") {
+     x.style.display = "flex";
+    } else {
+     x.style.display = "none";
+    }
+    }
+</script>
 </html>

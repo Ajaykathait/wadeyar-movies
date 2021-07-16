@@ -477,6 +477,13 @@ position: relative;
     -webkit-transform: scale(1.07);
             transform: scale(1.07);
   }
+
+  @media (max-width:700px) {
+    .home .Featured .featured_slider .single_box:hover {
+      -webkit-transform: unset;
+      transform: unset;
+    }
+  }
   
   .home .Featured .featured_slider .single_box:hover .play_btn {
     display: block;
@@ -674,6 +681,12 @@ position: relative;
     -webkit-transform: scale(1.07);
             transform: scale(1.07);
   }
+  @media (max-width:700px) {
+    .home .Featured_Scripted_Television .Television_title_slide .single_box:hover {
+      -webkit-transform: unset;
+      transform: unset;
+    }
+  }
   
   .home .Featured_Scripted_Television .Television_title_slide .single_box:hover .play_btn {
     display: block;
@@ -803,6 +816,12 @@ position: relative;
     -webkit-transform: scale(1.07);
             transform: scale(1.07);
   }
+  @media (max-width:700px) {
+    .home .Featured_Unscripted_Television .Unscripted_Television_slider .single_box:hover{
+      -webkit-transform: unset;
+      transform: unset;
+    }
+  }
   
   .home .Featured_Unscripted_Television .Unscripted_Television_slider .single_box:hover .play_btn {
     display: block;
@@ -896,6 +915,13 @@ position: relative;
     -webkit-transform: scale(1.07);
             transform: scale(1.07);
   }
+  @media (max-width:700px) {
+    .home .Featured_Franchises .Featured_Franchises_slider .single_box:hover{
+      -webkit-transform: unset;
+      transform: unset;
+    }
+  }
+  
   
   .home .Featured_Franchises .Featured_Franchises_slider .single_box:hover .play_btn {
     display: block;
@@ -1032,6 +1058,13 @@ position: relative;
     -webkit-transform: scale(1.07);
             transform: scale(1.07);
   }
+  @media (max-width:700px) {
+    .home .Featured_Podcasts .Featured_Podcasts_slider .single_box:hover{
+      -webkit-transform: unset;
+      transform: unset;
+    }
+  }
+  
   
   .home .Featured_Podcasts .Featured_Podcasts_slider .single_box:hover .play_btn {
     display: block;
@@ -1116,6 +1149,12 @@ position: relative;
   .home .MGM_Companies .MGM_Companies_slider .single_box:hover {
     -webkit-transform: scale(1.07);
             transform: scale(1.07);
+  }
+  @media (max-width:700px) {
+    .home .MGM_Companies .MGM_Companies_slider .single_box:hover {
+      -webkit-transform: unset;
+      transform: unset;
+    }
   }
   
   .home .MGM_Companies .MGM_Companies_slider .single_box:hover .play_btn {

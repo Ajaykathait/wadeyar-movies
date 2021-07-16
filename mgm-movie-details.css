@@ -211,6 +211,12 @@ display: none;
   margin: 0 auto;
   padding: 0px 0px 5rem 0px;
 }
+@media (max-width:700px) {
+  .movie-details-page{
+    margin-top: 72px;
+  }
+}
+
 
 .movie-details-page .main-details-page .big-banner-img {
   position: relative;

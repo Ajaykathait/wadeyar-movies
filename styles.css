@@ -330,9 +330,19 @@ body {
   border-radius: 50%;
   border: 2px solid #796d43;
 }
+@media (max-width: 700px) {
+  .carousel .go_left {
+    border: unset;
+  }
+}
 
 .carousel .go_left:hover {
   border: 2px solid #a59149;
+}
+@media (max-width: 700px) {
+  .carousel .go_left:hover {
+    border: unset;
+  }
 }
 
 .carousel .go_left img {
@@ -357,9 +367,22 @@ body {
   border: 2px solid #796d43;
 }
 
+
+@media (max-width: 700px) {
+  .carousel .go_right {
+    border: unset;
+  }
+}
+
 .carousel .go_right:hover {
   border: 2px solid #a59149;
 }
+@media (max-width: 700px) {
+  .carousel .go_right:hover {
+    border: unset;
+  }
+}
+
 
 .carousel .go_right img {
   width: 100%;
@@ -875,6 +898,23 @@ body {
   font-weight: 500;
   color: #111;
   line-height: 2rem;
+  padding: 5px 5%;
+}
+
+.home .Featured_Franchises .sub-title {
+  padding: 5px 5%;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #111;
+  margin-top: 1rem;
+}
+@media (max-width: 700px) {
+  .home .Featured_Franchises .awards-text {
+    padding: 5px 2%;
+  }
+  .home .Featured_Franchises .sub-title {
+    padding: 5px 2%;
+  }
 }
 
 .home .Featured_Franchises .Featured_Franchises_slider .single_box {
@@ -888,6 +928,12 @@ body {
   transition: 300ms linear;
   height: 350px;
   width: 300px;
+}
+@media (max-width: 700px) {
+  .home .Featured_Franchises .Featured_Franchises_slider .single_box .img_slider  {
+    height: unset;
+    width: 200px;
+  }
 }
 .home .Featured_Franchises .Featured_Franchises_slider .single_box .img_title_box {
   text-align: center;
@@ -1177,6 +1223,18 @@ body {
   margin-left: 30px;
   color: #111;
   margin-top: 6rem;
+}
+
+@media (max-width: 700px) {
+  .featured_title,
+  .Scripted_Television_title,
+  .Unscripted_Television_title,
+  .Featured_Franchises_title,
+  .Featured_Podcasts_title,
+  .MGM_Companies_title {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 /* home-ends */
